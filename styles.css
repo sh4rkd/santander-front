@@ -28,6 +28,7 @@ body {
     margin: 40px 20px 0px 20px;
     font-size: 0;
     line-height: 45px;
+    font-family: sans-serif;
   }
 
   li{
@@ -48,14 +49,27 @@ body {
   
   .navbar{
       width: 70%;
-      text-align: left;
-      color: green;
+      text-align: center;
+      color: #025157;
+      line-height: 25px;
       font-weight: 500;
   }
 
   .actions{
       width: 15%;
-      text-align: left;
+      text-align: right;
       font-size: 14px;
       font-weight: 700;
   }
+
+.actions a{
+    color: #67b54b;    
+}
+
+.actions button{
+    color:white;
+    background-color: #67b54b;
+    margin: 12px 14px 12px 14px;
+    border-radius: 5px;
+    border: 0;
+}
