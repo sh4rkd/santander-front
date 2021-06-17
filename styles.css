@@ -51,8 +51,6 @@ body {
       width: 70%;
       text-align: center;
       color: #025157;
-      line-height: 25px;
-      font-weight: 500;
   }
 
   .actions{
@@ -73,3 +71,10 @@ body {
     border-radius: 5px;
     border: 0;
 }
+
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
