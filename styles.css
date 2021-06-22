@@ -19,6 +19,14 @@ body {
     background-color: #fffbf7;
 }
 
+.fixed-header{
+    position:fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .header {
     /*
     margin-top: 40px;
@@ -77,4 +85,15 @@ body {
     margin-right: 25px;
     margin-left: 25px;
   }
+
+.publish{
+    display:flex;
+    width:30%
+    margin: 100px auto;
+    align-items: center;
+}
+
+.publish{
+
+}
   
